@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
     padding: 150px 400px;
     align-items: center;
-    /* box-shadow: 0px 44px 68px -6px rgba(0,46,77,0.24); */
+    box-shadow: 0px 44px 68px -6px rgba(0,46,77,0.24);
 }
 .text-and-buttons {
     width: 500px;
@@ -53,6 +53,7 @@ body {
     color: rgb(237, 237, 237);
     font-size: 18px;
     font-weight: 300;
+    line-height: 25px;
 }
 .text-and-buttons button {
     background: #3882f6;
@@ -114,15 +115,18 @@ body {
     margin: 0%;
     padding-right: 50px;
 }
+.cta-section {
+    margin: 100px 380px; 
+}
 .cta {
     background:#3882f6;
-    margin: 100px 380px; 
     height: 150px;
     display: flex;
     justify-content: space-between;
     padding: 20px 100px;
     align-items: center;
     border-radius: 15px;
+    box-shadow: 0px 44px 68px -6px rgba(2, 88, 145, 0.35);
 }
 .cta-text h3 {
     font-size: 24px;
