@@ -145,3 +145,10 @@ body {
     font-size: 18px;
     border-radius: 10px;
 }
+.footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 400px;
+    color: white;
+}
